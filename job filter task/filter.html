@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+</head>
+<body class="bg-cyan-50">
+  <div class="relative">
+    <nav class="bg-cyan-300 h-24 w-full"></nav>
+    <img class="absolute top-0 w-full h-24 invisible md:visible" src="./images/bg-header-desktop.svg" alt="">
+    <img class="absolute top-0 w-full h-24 md:invisible" src="./images/bg-header-mobile.svg" alt="">
+  </div>
+  <div class="flex justify-center">
+    <div class="flex flex-row justify-between items-center mb-10  border w-9/12 px-6">
+      <div class="flex flex-row py-4 space-x-3">
+        <div class="flex">
+          <button id="frontend" class="bg-cyan-100 h-7 rounded-sm hover:bg-cyan-200 text-cyan-600 px-2 py-1">Frontend</button>
+          <button class="bg-cyan-600 h-7 rounded-sm hover:bg-cyan-700 text-white px-2 py-2">X</button>
+        </div>
+        <div class="flex">
+          <button id="css" class="bg-cyan-100 h-7 rounded-sm hover:bg-cyan-200 text-cyan-600 px-2 py-1">Css</button>
+          <button class="bg-cyan-600 h-7 hover:bg-cyan-700 rounded-sm text-white px-2 py-2">X</button>
+        </div>
+        <div class="flex">
+          <button id="javascript" class="bg-cyan-100 h-7 rounded-sm hover:bg-cyan-200 text-cyan-600 py-1 px-2">javascript</button>
+          <button class="bg-cyan-600 hover:bg-cyan-700 h-7 rounded-sm text-white px-2 py-2">X</button>
+        </div>
+      </div>
+      <p id="cleared" class="text-cyan-600 hover:border-b border-cyan-600 cursor-pointer">clear</p>
+    </div>
+  </div>
+  
+
+  
+  
+
+    <div id="htmlfilter">  
+    </div>
+
+</body>
+<script src="./filter.js"></script>
+</html>

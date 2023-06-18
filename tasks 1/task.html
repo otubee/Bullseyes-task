@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+</head>
+<body class="bg-gray-100">
+  <div>
+    <img class="w-72 absolute top-0 right-0" src="./images/bg-top.svg" alt="">
+    <img class="w-72 absolute bottom-0" src="./images/bg-bottom.svg" alt="">
+  </div>
+  
+  <div class="flex font-bold text-blue-700 items-center justify-center mt-12 mb-6">
+  Our Pricing
+  </div>
+  <div class="pb-10 flex items-center justify-center space-x-3">
+    <p class="text-xs text-blue-500">Annually</p>
+    <button id="btn" class="w-10 h-5 bg-blue-900 rounded-3xl relative">
+      <p id="toggle" class="bg-white w-5 h-5 rounded-full absolute top-0 right-0">
+      </p>
+    </button>
+    <p class="text-xs text-blue-500">Monthly</p>
+  </div>
+  <div class="flex justify-center items-center">
+    <div class="w-8/12 flex flex-col space-y-5 md:flex-row items-center justify-center z-10">
+      <div class="w-full border bg-white px-6 mt-6 pt-8 pb-8 rounded-lg">
+        <div class="flex flex-col text-blue-900 items-center justify-center">
+          <p class="pb-3">Basic</p>
+          <div class="relative w-48 border-b">
+            <p class=" font-bold text-center pb-6">$ <span id="priceone" class="text-3xl font-bold">19.99</span></p>
+          </div>
+          <div class="w-48 border-b py-2">
+            <p class="text-center">500 GB Storage</p>
+          </div>
+          <div class="w-48 border-b py-2">
+            <p class="text-center">2 Users Allowed</p>
+          </div>
+          <div class="mb-6 w-48 border-b py-2">
+            <p class="text-center">Send up to 3 GB</p>
+          </div>
+          <button id="learnone" class="text-xs font-semibold text-center border hover:bg-blue-900 hover:text-white border-blue-900 px-12 py-2 rounded-lg">LEARN MORE</button>
+        </div>
+      </div>
+  
+  
+      <div class="w-full bg-blue-700 text-white  border px-6 pt-12 pb-12 rounded-lg">
+        <div class="flex flex-col items-center justify-center">
+          <p class="pb-3">Professional</p>
+          <div class="relative w-48 border-b border-gray-400">
+            <p class="font-bold text-center pb-6">$ <span id="pricetwo"  class="text-3xl font-bold">24.99</span></p>
+          </div>
+          <div class="w-48 border-b border-gray-400 py-2">
+            <p class="text-center">1TB Storage</p>
+          </div>
+          <div class="w-48 border-b border-gray-400 py-2">
+            <p class="text-center">5 Users Allowed</p>
+          </div>
+          <div class="mb-6 w-48 border-b border-gray-400 py-2">
+            <p class="text-center">Send up to 10 GB</p>
+          </div>
+          <button id="learntwo" class="text-white text-xs font-semibold text-center hover:bg-white hover:text-blue-900 border border-white px-12 py-2 rounded-lg">LEARN MORE</button>
+        </div>
+      </div>
+  
+  
+      <div class="w-full border bg-white px-6 pt-8 pb-8 rounded-lg">
+        <div class="flex flex-col items-center text-blue-900 justify-center">
+          <p class="pb-3">Master</p>
+          <div class="relative w-48 border-b">
+            <p class="font-bold text-center pb-6">$ <span id="pricethree" class="text-3xl font-bold">39.99</span></p>
+          </div>
+          <div class="w-48 border-b py-2">
+            <p class="text-center">2 TB Storage</p>
+          </div>
+          <div class="w-48 border-b py-2">
+            <p class="text-center">10 Users Allowed</p>
+          </div>
+          <div class="mb-6 w-48 border-b py-2">
+            <p class="text-center">Send up to 20 GB</p>
+          </div>
+          <button id="learnthree" class="text-blue-900  text-xs font-semibold hover:bg-blue-900 hover:text-white text-center border border-blue-900 px-12 py-2 rounded-lg">LEARN MORE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</body>
+<script src="./task.js"></script>
+</html>
